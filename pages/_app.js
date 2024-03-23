@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
     return (
         <div className="bg-black h-screen w-full">
             <Head>
-                <title>Base Front Web3 Project</title>
+                <title>CCBIG DEX</title>
                 <meta
                     name="description"
                     content="Starting point to create a front web3 project"

@@ -1,6 +1,11 @@
-## **Prerequisites**
+TODO:
 
-To use this repository, you will need:
+- Finish front end, incorporate into CCBIG website.
+- Use admin with multisig or .env file to store contract info. Currently, I deploy the contracts and use the resulting contract addresses as input to deploy child contracts. What can be moved needs to move into .env or an admin.js
+- Deploy a backend DB to store image and production token data. Currently, BigRandomToken.sol generates tokens for testing.
+- Mostly tested on Ganache or waffle. Need to test a sepolia deployment.
+
+## **Prerequisites**
 
 -   Node Js >= 16.14.2
 -   Yarn >= 1.22.19 or npm >= 8.5.0
@@ -9,6 +14,7 @@ To use this repository, you will need:
 
 1. Clone this repository to your local machine.
 2. Install the required dependencies using `npm install` or `yarn`.
+3. Compile and deploy smart contracts. May need to use petersburg EVM in compiler options.
 
 ## **Usage**
 
@@ -19,11 +25,11 @@ To use this repository, you will need:
 
 ## **Configuration**
 
-This base project comes pre-configured with Next.js and Web3UIKit.
+Pre-configured with Next.js and Web3UIKit.
 
 ## **Next.js**
 
-This project uses Next.js, a React-based framework for building server-side rendered web applications. [here](https://nextjs.org/learn).
+Uses Next.js, a React-based framework for building server-side rendered web applications. [here](https://nextjs.org/learn).
 
 ## **Web3UIKit**
 
